@@ -1,0 +1,13 @@
+use strict;
+print "Enter the size of the array=";
+my $n=<stdin>;
+my @arr;
+print "Enter the elements of the array=";
+my $s=0;
+my $i;
+for($i=0;$i<$n;$i++)
+{
+$arr[$i]=<stdin>;
+$s=$s+$arr[$i];
+}
+print "Sum of elements of array is $s\n";

@@ -1,0 +1,6 @@
+echo "Kernal version is "$(uname -a)
+echo "All available shell" $( head /etc/shells)
+echo "CPU informations are "$(head /proc/cpuinfo)
+echo "Memory information is " $(head /proc/meminfo)
+echo "Hard Disk information is " $(sudo parted -l)
+echo "File System information is  "$(df -Th)
